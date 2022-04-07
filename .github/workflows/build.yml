@@ -12,28 +12,12 @@ jobs:
     container: mcr.microsoft.com/dotnet/sdk:6.0
     steps:
     - uses: actions/checkout@v2
-      with:
-          fetch-depth: 0
 
     - name: Build
       run: dotnet build -c Release
 
-    - name: Get Previous tag
-      id: latest_tag
-      uses: "WyriHaximus/github-action-get-previous-tag@v1"
-      with:
-        fallback: 0.0.0
-
-    - name: Get Version
-      id: get_version
-      run: |
-        BranchName=$(echo ${GITHUB_REF#refs/heads/});
-        RawBuildVersion=${{ steps.latest_tag.outputs.tag }}-${{ steps.extract_branch.outputs.branch }};
-        Version=$(echo "$RawBuildVersion" | sed -r 's/[\/]+/-/g');
-        echo "##[set-output name=version;]$(echo $Version)";
-
     - name: Pack
-      run: dotnet pack TemplatePack.csproj -c Release -p:PackageVersion='${{ steps.get_version.outputs.version }}' --output packages
+      run: dotnet pack TemplatePack.csproj -c Release --output packages
 
     - name: Upload artifacts
       uses: actions/upload-artifact@v2
