@@ -7,6 +7,7 @@
     <Authors>Julian Baumann</Authors>
     <Description>Templates to use when creating an application for the JAIS system.</Description>
     <PackageTags>dotnet-new;templates;jais;app</PackageTags>
+    <RepositoryUrl>https://github.com/carsten-computer-club/AppTemplate</RepositoryUrl>
 
     <TargetFramework>net6.0</TargetFramework>
 
