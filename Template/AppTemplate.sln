@@ -1,8 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppTemplate.Test", "AppTemplate.Test\AppTemplate.Test.csproj", "{9B7025C7-7579-4725-8D95-DE8544599B9B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppTemplate.Test", "src\AppTemplate.Test\AppTemplate.Test.csproj", "{9B7025C7-7579-4725-8D95-DE8544599B9B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppTemplate", "AppTemplate\AppTemplate.csproj", "{D38699DE-D6B2-40FB-AB6B-18B7E4620EC0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppTemplate", "src\AppTemplate\AppTemplate.csproj", "{D38699DE-D6B2-40FB-AB6B-18B7E4620EC0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

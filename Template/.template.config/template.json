@@ -3,7 +3,7 @@
     "author": "Julian Baumann",
     "classifications": [ "Common", "Console" ],
     "identity": "Jais.AppTemplate",
-    "name": "Create a JAIS App",
+    "name": "JAIS App",
     "shortName": "jaisapp",
     "tags": {
       "language": "C#",
@@ -26,7 +26,11 @@
             "**/*.DS_Store",
             ".template.config/**",
             ".git/**",
-            ".idea/**"
+            ".idea/**",
+            "*.md",
+            ".github/**",
+            ".vs/**",
+            ".vscode/**"
          ]
       }
    ]
