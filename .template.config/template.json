@@ -1,0 +1,33 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Julian Baumann",
+    "classifications": [ "Common", "Console" ],
+    "identity": "Jais.AppTemplate",
+    "name": "Create a JAIS App",
+    "shortName": "jaisapp",
+    "tags": {
+      "language": "C#",
+      "type": "project"
+    },
+    "sourceName": "AppTemplate",
+    "sources":[
+      {
+         "source":"./",
+         "target":"./",
+         "include":[
+            "**/*"
+         ],
+         "exclude":[
+            "**/[Bb]in/**",
+            "**/[Oo]bj/**",
+            "**/.template.config",
+            "**/*.filelist",
+            "**/*.user",
+            "**/*.DS_Store",
+            ".template.config/**",
+            ".git/**",
+            ".idea/**"
+         ]
+      }
+   ]
+}
