@@ -27,7 +27,6 @@
             ".template.config/**",
             ".git/**",
             ".idea/**",
-            "*.md",
             ".github/**",
             ".vs/**",
             ".vscode/**"
