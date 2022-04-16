@@ -1,4 +1,4 @@
-# AppTemplate
+# AppTemplate - JAIS app
 
 | App           | AppTemplate   |
 | ------------- |:-------------:|
