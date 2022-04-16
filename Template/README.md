@@ -23,6 +23,4 @@
 
 ## Package
 
-```bash
-jais package --version 0.1.0
-```
+To package this app, use the [App Packager](https://github.com/carsten-computer-club/JaisAppPackager)
