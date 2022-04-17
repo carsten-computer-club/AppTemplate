@@ -2,5 +2,6 @@
     "appName": "AppTemplate",
     "author": "",
     "version": "0.1.0",
-    "buildProject": "src/AppTemplate"
+    "buildProject": "src/AppTemplate",
+    "bundleId": "com.company.AppTemplate"
 }
