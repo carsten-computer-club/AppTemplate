@@ -1,10 +1,10 @@
 {
     "$schema": "http://json.schemastore.org/template",
     "author": "Julian Baumann",
-    "classifications": [ "Common", "Console" ],
-    "identity": "Jais.AppTemplate",
-    "name": "JAIS App",
-    "shortName": "jaisapp",
+    "classifications": [ "Jais", "App", "Solution" ],
+    "identity": "Jais.App.Templates.Solution",
+    "name": "JAIS Solution",
+    "shortName": "jais.solution",
     "tags": {
       "language": "C#",
       "type": "project"
