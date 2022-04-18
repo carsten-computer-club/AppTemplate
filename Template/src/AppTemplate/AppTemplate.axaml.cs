@@ -5,15 +5,12 @@ using JaisAppCore;
 
 namespace AppTemplate;
 
-[App("AppTemplate", "/Assets/Icon.png")]
-public partial class MainWindow : Window
+[App("AppTemplate", "avares://AppTemplate/Assets/Icon.png")]
+public partial class AppTemplate : UserControl
 {
-    public MainWindow()
+    public AppTemplate()
     {
         InitializeComponent();
-#if DEBUG
-        this.AttachDevTools();
-#endif
     }
 
     private void InitializeComponent()
